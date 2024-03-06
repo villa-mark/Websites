@@ -1,0 +1,197 @@
+#home_pane{
+  width: 1310px;
+  height: 650px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-top: 75px;
+  display: inline-block;
+  box-shadow: 0px 0px 30px hsl(0, 0%, 0%);
+  background-color: #092635;
+  position: relative;
+
+}
+
+.profile_div{
+  width: 50%;
+  height: 100%;
+  margin-top: -40px;
+  position: absolute;
+}
+
+#profile_adjust{
+  margin-left: 50%;
+}
+
+.info{
+  margin-left: 20%;
+  position: absolute;
+}
+
+#greet{
+  font-size: 50px;
+  font-family: cursive;
+  font-weight: bold;
+  color: #9EC8B9;
+  text-shadow: 6px 6px 5px rgb(0, 0, 0);
+  margin-top: 150px;
+  margin-bottom: 0px;
+
+}
+
+#name{
+  font-size: 100px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 100;
+  letter-spacing: 10px;
+  color: #9EC8B9;
+  text-shadow: 6px 6px 5px rgb(0, 0, 0);
+  margin-left: 20%;
+  margin-top: 220px;
+}
+
+#profile{
+  display: inline;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 50px;
+  width: 500px;
+}
+
+#career{
+ margin-top: 350px;
+ color: #107B7B;
+ text-shadow: 3px 3px 2px black;
+ font-size: 33px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ letter-spacing: 2px;
+}
+
+#quote{
+  margin-top: 420px;
+  margin-left: 14%;
+  font-size: 16px;
+  color: #9EC8B9;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.enlarge{
+  font-size: 18px;
+  color: #34C893;
+  text-shadow: 2px 2px 2px black;
+}
+
+#hire{
+  margin-top: 520px;
+  background-color: #5C8374;
+  color: #092635;
+  border-radius: 20px;
+  border: 0px;
+  font-weight: bold;
+  box-shadow: 4px 4px 3px black;
+  font-size: 30px;
+  width: 200px;
+}
+
+#hire:hover{
+  color: black;
+  box-shadow: 2px 2px 3px hsl(154, 100%, 50%), 
+             -2px -2px 3px hsl(154, 100%, 50%),
+             -2px 2px 3px hsl(154, 100%, 50%), 
+             2px -2px 3px hsl(154, 100%, 50%);;
+  font-weight: bolder;
+  width: 210px;
+  margin-left: 19%;
+}
+
+#hire:active{
+  background-color: #586762;
+  color: hsl(154, 100%, 50%);
+  margin-left: 21%;
+  width: 190px;
+  font-weight: normal;
+  font-size: 28px;
+}
+
+.icon{
+  position: absolute;
+  width: 100px;
+}
+
+#js{
+  margin-top: 160px;
+  margin-left: 60px;
+  transform: rotate(-30deg);
+  filter: drop-shadow(2px 2px 10px hsla(210, 100%, 50%, 0.979));
+}
+
+#figma{
+  margin-top: 340px;
+  margin-left: -30px;
+  width: 180px;
+  transform: rotate(10deg);
+  filter: drop-shadow(2px 2px 10px hsla(77, 100%, 50%, 0.979));
+}
+
+#html{
+  margin-top: 560px;
+  margin-left: 80px;
+  width: 65px;
+  transform: rotate(30deg);
+  filter: drop-shadow(2px 2px 10px hsla(196, 100%, 50%, 0.979));
+}
+
+#java{
+  margin-top: 130px;
+  margin-left: 410px;
+  transform: rotate(10deg);
+  width: 90px;
+  filter: drop-shadow(1px 1px 10px hsl(261, 100%, 50%));
+}
+
+#php{
+  margin-top: 340px;
+  margin-left: 480px;
+  width: 80px;
+  filter: drop-shadow(2px 2px 10px hsla(44, 100%, 50%, 0.979));
+}
+
+#photoshop{
+  margin-top: 560px;
+  margin-left: 460px;
+  width: 50px;
+  transform: rotate(-20deg);
+  filter: drop-shadow(2px 2px 10px hsla(124, 100%, 50%, 0.979));
+}
+
+#css{
+  margin-top: 80px;
+  margin-left: 40px;
+  width: 70px;
+  transform: rotate(20deg);
+  filter: drop-shadow(2px 2px 5px hsl(295, 100%, 50%));
+}
+
+#macromedia{
+  margin-top: 580px;
+  margin-left: 60px;
+  width: 70px;
+  transform: rotate(0deg);
+  filter: drop-shadow(2px 2px 10px hsla(193, 100%, 50%, 0.979));
+}
+
+#c{
+  margin-top: 180px;
+  margin-left: 470px;
+  width: 60px;
+  transform: rotate(-20deg);
+  filter: drop-shadow(1px 1px 5px hsla(76, 100%, 50%, 0.979));
+}
+
+#arrow{
+  position: absolute;
+  width: 300px;
+  margin-top: 400px;
+  margin-left: 350px;
+  transform: rotate(-40deg) scaleY(-1);
+  filter: drop-shadow(1px 1px 5px hsla(135, 100%, 50%, 0.979));
+}
