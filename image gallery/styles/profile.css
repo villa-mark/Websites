@@ -1,0 +1,30 @@
+.profile{
+  position: relative;
+}
+.background{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.bg1{
+  position: relative;
+  width: 100%;
+}
+.img1{
+ position: absolute;
+ width: 35%;
+ top: 12%;
+ left:33%;
+ border: 2px solid rgb(255, 58, 58);
+ border-radius: 50%;
+}
+.profile-name{
+  position: absolute;
+  top: 75%;
+  left: 12%;
+}
+.name{
+  color: rgb(163, 95, 95);
+  font-size: 4.3vw;
+  font-family: Roboto Condensed;
+}

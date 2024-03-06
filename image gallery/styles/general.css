@@ -1,0 +1,11 @@
+body{
+  margin: 0;
+  padding-top: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+}
+.main{
+  position: relative;
+  background-color: rgb(17, 1, 1);
+}
