@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <form>
+            <div class="displayContainer">
+                <input type="text" readonly id="display">
+                <input type="text" readonly id="displayInput">
+            </div>
+            <div class="buttonContainer">
+                <input type="button" value="7" onclick="displayFnc('7')">
+                <input type="button" value="8" onclick="displayFnc('8')">
+                <input type="button" value="9" onclick="displayFnc('9')">
+                <input type="button" value="+" onclick="displayFncOperator('+')">
+
+                <input type="button" value="4" onclick="displayFnc('4')">
+                <input type="button" value="5" onclick="displayFnc('5')">
+                <input type="button" value="6" onclick="displayFnc('6')">
+                <input type="button" value="-" onclick="displayFncOperator('-')">
+
+                <input type="button" value="1" onclick="displayFnc('1')">
+                <input type="button" value="2" onclick="displayFnc('2')">
+                <input type="button" value="3" onclick="displayFnc('3')">
+                <input type="button" value="*" onclick="displayFncOperator('*')">
+
+                <input type="button" value="." onclick="displayFnc('.')">
+                <input type="button" value="0" onclick="displayFnc('0')">
+                <input type="button" value="=" onclick="result()">
+                <input type="button" value="/" onclick="displayFncOperator('/')">
+            </div>
+        </form>
+    </div>
+
+    <button onclick="clearDisplay()">Clear</button>
+    <button onclick="deleteOneChar()">delete</button>
+
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
